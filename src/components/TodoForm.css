@@ -1,0 +1,37 @@
+.todo-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.input {
+    font-size: 20px;
+    color: gray;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.add-button {
+    margin: 0 10px;
+    padding: 6px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgb(114, 93, 233);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:90px;
+}
+
+.disable-button {
+    pointer-events: none;
+    user-select: none;
+    background-color: gray;
+}

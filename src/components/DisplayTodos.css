@@ -1,0 +1,10 @@
+.todo-wrapper {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: rgb(214, 211, 211);
+    border-radius: 5px;
+}
+
+.tabs {
+    padding-bottom: 10px;
+}

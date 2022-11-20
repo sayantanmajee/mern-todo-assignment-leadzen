@@ -1,0 +1,18 @@
+.button-tabs{
+    margin: 0 10px;
+    padding: 6px;
+    font-size: 14px;
+    color: gray;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.selected {
+    color: white;
+    background-color: rgb(71, 116, 67);
+    font-weight: 700;
+}

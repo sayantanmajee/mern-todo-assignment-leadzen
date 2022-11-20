@@ -1,0 +1,42 @@
+.todo-item {
+    background-color: rgb(84, 96, 163);
+    margin: 2px auto;
+    padding: 14px;
+    list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: larger;
+    user-select: none;
+}
+.icon {
+    float: right;
+}
+.icon span {
+    padding-right: 20px;
+}
+
+.edit-todo {
+    width: 65%;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-todo input {
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px 8px;
+
+    
+
+}
