@@ -15,9 +15,21 @@
 .icon {
     float: right;
 }
+
+
 .icon span {
     padding-right: 20px;
+    transition: transform .2s;
 }
+
+.icon span:nth-child(2):hover {
+    color: rgb(212, 117, 117);
+    transform: scale(2);
+}
+.icon span:nth-child(1):hover {
+    color: rgb(105, 222, 226);
+}
+
 
 .edit-todo {
     width: 65%;
@@ -33,10 +45,34 @@
     color: gray;
     width: 100%;
     border: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     outline: none;
     padding: 3px 8px;
 
     
 
+}
+
+.save-button {
+    padding: 0 6px;
+    height: 27px;
+    background-color: rgb(139, 190, 139);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+}
+
+.save-button:hover {
+    background-color: rgb(70, 122, 70);
 }

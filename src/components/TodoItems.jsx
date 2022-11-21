@@ -48,6 +48,7 @@ export default function TodoItems({ data, id, done }) {
                     value={text}
                     onChange={(e) => setText(e.target.value)}
                 />
+                <button className='save-button'>Save</button>
             </form>
             <div className='icon'>
                 <span onClick={() => setEditing(!editing)}><BsVectorPen /></span>
