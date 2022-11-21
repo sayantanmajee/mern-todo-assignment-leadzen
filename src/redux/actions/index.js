@@ -5,11 +5,7 @@ import { ADDNEW_TODO, GETALL_TODOS, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGL
 // const API_URL = 'http://localhost:8000';
 // const API_URL = process.env.API_URL;
 
-<<<<<<< HEAD
-const API_URL = "https://mern-todo-assignment-leadzen-api.onrender.com"
-=======
 const API_URL = "https://mern-todo-assignment-leadzen-api.onrender.com";
->>>>>>> c91a34632c36ec25fde3bffd722457be4f6843dc
 
 //API for adding new todo
 export const addNewTodo = (data) => async (dispatch) => {
